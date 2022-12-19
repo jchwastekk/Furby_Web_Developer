@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Furby's JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <!-- fontawesome for icons -->
+  <script defer src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
+</head>
+
+<body>
+
+  <h1>Ferby Web Developer</h1>
+  <!-- animated heart icon with the number of lives on the right -->
+  <div class="livesPar">
+    <h3 id="lives">10</h3>
+  </div>
+
+  <!-- Furbi in the middle of the page -->
+  <div id="furby">
+    <img src="assets/img/furby.png" alt="Furbi">
+  </div>
+
+
+
+  <!-- place for the question and answers to appear -->
+  <div id="question-section">
+    <!-- question and answer choices will be added here dynamically -->
+  </div>
+
+  <!-- include the sound effects -->
+  <audio id="error" src="assets/sounds/wrong.wav"></audio>
+  <audio id="yeees" src="assets/sounds/yeees.wav"></audio>
+
+  <!-- include the JavaScript files -->
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
