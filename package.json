@@ -1,0 +1,22 @@
+{
+  "name": "furby",
+  "version": "1.0.0",
+  "description": "furby web developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchwastekk/Furby_Web_Developer.git"
+  },
+  "keywords": [
+    "furby"
+  ],
+  "author": "Jakub Chwastek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchwastekk/Furby_Web_Developer/issues"
+  },
+  "homepage": "https://github.com/jchwastekk/Furby_Web_Developer#readme"
+}
